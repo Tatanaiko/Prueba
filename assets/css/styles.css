@@ -1,0 +1,119 @@
+.shippori-mincho-regular {
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.kiwi-maru-regular {
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    color: aliceblue;
+    background-color: black;
+    font-family: shippori-mincho-regular;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: transparent !important;
+    color: aliceblue;
+    top: 0;
+}
+.navbar-toggler {
+    background-color: white;
+}
+
+.carousel {
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+.icon-article {
+    text-align: center;
+}
+
+.fat{
+    font-size: 25px;
+}
+
+.icon-article {
+    display:flex;
+    justify-content: center;
+    background-color:aquamarine;
+    height: 35px;
+}
+
+.titulos {
+    padding: 30px;
+    margin: 30px 40px 30px 40px;
+    border-bottom: 3px;
+    border-bottom: 1px solid white;
+}
+
+.titulo {
+    padding: 30px;
+    border-bottom: 1px solid white;
+    margin: 30px 92px 30px 30px;
+    width: 94%
+}
+
+.card-body {
+    background-color: aquamarine;
+
+}
+
+.card img {
+    height: 212px;
+    width: 286px;
+}
+
+.form-label {
+    margin-bottom: .5rem;
+    font-size: 20px;
+}
+
+footer {
+    height: 60px;
+    justify-content: center;
+    background-color: aqua;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+@media (max-width: 576px) { 
+    .col-sm-12 .card {
+        margin-bottom: 20px; 
+    }
+    textarea.form-control {
+        font-size: 14px; 
+        padding: .375rem .75rem; 
+    }
+    footer {
+        height: 40px; 
+        padding-top: 20px; 
+    }
+
+    footer h2 {
+        font-size: 15px; 
+        
+    }
+
+    .icons-section i {
+        font-size: 20px; /
+    }
+}
