@@ -24,3 +24,11 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+/* Carrusel */
+$(document).ready(function() {
+    // Iniciar el carrusel automáticamente
+    $('.carousel').carousel({
+      interval: 2000 // Intervalo en milisegundos (2 segundos en este caso)
+    });
+});
