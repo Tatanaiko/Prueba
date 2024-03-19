@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-
 /* SMOTH SCROLL */
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll('.nav-link').forEach(anchor => {
@@ -25,10 +24,24 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-/* Carrusel */
+/* CARRUSEL */
 $(document).ready(function() {
-    // Iniciar el carrusel automáticamente
+    
     $('.carousel').carousel({
-      interval: 2000 // Intervalo en milisegundos (2 segundos en este caso)
+    interval: 2000 
     });
 });
+
+/* NABVAR OSCURO CON TRANSPARENCIA */
+window.onscroll = () => scrollNavbar();
+
+const scrollNavbar = () =>{
+
+    if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
+        console.log('scroll 1')
+        document.getElementById("navbar").style.backgroundColor ="#00000060";
+    }else{
+        document.getElementById("navbar").style.backgroundColor ="transparent";
+        console.log('scroll2')
+    }
+}
