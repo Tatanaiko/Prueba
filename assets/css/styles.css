@@ -25,9 +25,11 @@ body {
     position: fixed;
     width: 100%;
     z-index: 2;
-    background-color: transparent !important;
     color: aliceblue;
     top: 0;
+}
+.navbar .nav-item a {
+    color:white!important;
 }
 .navbar-toggler {
     background-color: white;
